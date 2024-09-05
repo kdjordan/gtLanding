@@ -2,7 +2,7 @@
   <div id="app">
     <NavBar />
     <HeroSection />
-    <StatsSection />
+    <!-- <StatsSection /> -->
     <FeaturesSection />
     <PricingSection />
     <TestimonialsSection />

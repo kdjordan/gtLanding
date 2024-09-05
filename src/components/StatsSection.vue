@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primary-900 text-secondary py-12">
+  <section class="bg-gray-900 text-secondary py-12">
     <div class="container mx-auto">
       <div class="flex justify-between">
         <div v-for="(stat, index) in stats" :key="index" class="text-center">
@@ -13,9 +13,9 @@
 
 <script setup>
 const stats = [
-  { value: '90+', label: 'Countries' },
-  { value: '1000+', label: 'Networks' },
+  { value: '100%', label: 'North American Coverage' },
+  { value: '100+', label: 'Networks' },
   { value: '24/7', label: 'Support' },
-  { value: '100%', label: 'Coverage' },
+  { value: '5M', label: 'Daily Minutes' },
 ];
 </script>

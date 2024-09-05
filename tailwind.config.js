@@ -14,6 +14,9 @@ export default {
         secondary: {
           DEFAULT: '#FFFFFF', // White for text
         },
+        gray: {
+          900: '#302f2f',
+        },
       },
       fontFamily: {
         sans: ['"PF BeauSans Pro"', 'sans-serif'],
