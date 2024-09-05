@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-gradient-to-br from-stone-300 to-stone-900">
+  <section class="py-16 bg-stone-300" id="features">
     <div class="container mx-auto px-4">
       <div class="flex items-center mb-12">
         <div class="w-8 h-0.5 bg-black mr-4"></div>
@@ -42,13 +42,15 @@
         <!-- Wholesale copy -->
         <div class="w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden">
           <div class="p-8">
-            <h2 class="text-2xl font-bold text-secondary mb-8">Glotell: Your Partner in Domestic Telecommunications Termination</h2>
+            <h2 class="text-2xl font-bold text-secondary mb-4">Glotell: Your Partner in Domestic Telecommunications Termination</h2>
             <p class="text-secondary mb-4">
               Glotell is a leading provider of telecommunications termination services, dedicated to delivering high-quality, reliable solutions that cater to the specific needs of our diverse client base. With years of expertise in the telecom industry, we ensure that your communication infrastructure is optimized for peak performance, cost-efficiency, and regulatory compliance.
             </p>
+            <h2 class="text-2xl font-bold text-secondary mb-4">Expert Guidance and Regulatory Compliance</h2>
             <p class="text-secondary mb-4">
               Our experienced team is committed to guiding businesses through evolving telecom technologies, offering insights into new solutions and ensuring adherence to the latest industry standards, including TCPA and Robocall mitigation. We understand the complexities of the telecommunications landscape and work tirelessly to help our clients navigate these challenges with ease, offering scalable and future-proof solutions.
             </p>
+            <h2 class="text-2xl font-bold text-secondary mb-4">Comprehensive Service Offerings</h2>
             <p class="text-secondary">
               From call center support and calling card termination services to advanced arbitrage VOIP services, Glotell has the expertise to ensure that your business remains connected and competitive in the global marketplace. Our tailored approach means that no matter your operational needs, we provide the technology and services that empower your business to grow and thrive.
             </p>
@@ -69,3 +71,10 @@
 <script setup>
 // Add any necessary imports and logic here
 </script>
+
+<style scoped>
+#features {
+  scroll-margin-top: 4rem; /* Increased from 4rem to 6rem */
+}
+
+</style>

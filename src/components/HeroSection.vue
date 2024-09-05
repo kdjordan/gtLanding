@@ -1,5 +1,6 @@
 <template>
-  <section class="relative overflow-hidden bg-black text-secondary flex items-center justify-center my-16">
+  <section id="hero" class="relative overflow-hidden bg-black text-secondary flex items-center justify-center my-16 pt-16">
+    <div class="absolute top-0 left-0 right-0 h-16" aria-hidden="true"></div>
     <div class="container relative z-10 mx-auto px-8 py-12">
       <div class="bg-gradient-to-br from-black to-primary rounded-3xl shadow-2xl overflow-hidden">
         <div class="flex flex-wrap items-center justify-between p-8">
@@ -23,3 +24,9 @@
 <script setup>
 // Add any necessary imports and logic here
 </script>
+
+<style scoped>
+#hero {
+  scroll-margin-top: 4rem; /* Adjust this value based on your navbar height */
+}
+</style>
