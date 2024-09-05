@@ -8,25 +8,34 @@ export default {
     extend: {
       colors: {
         primary: {
-          50: '#f3e6ff',
-          100: '#d9b3ff',
-          500: '#6600cc',
-          700: '#4c0099',
-          900: '#330066',
+          DEFAULT: '#FF0000', // Bright red color for icons and accents
+          900: '#000000', // Black for background
         },
-        accent: {
-          300: '#99ffcc',
-          500: '#00ff99',
-          700: '#00cc7a',
+        secondary: {
+          DEFAULT: '#FFFFFF', // White for text
         },
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'],
+        sans: ['"PF BeauSans Pro"', 'sans-serif'],
+        // You can keep the display font if you're using it elsewhere
         display: ['Montserrat', 'sans-serif'],
       },
       // ... existing backgroundImage config
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addBase, theme }) {
+      addBase({
+        'html': { fontFamily: theme('fontFamily.sans') },
+        'a': { 
+          color: theme('colors.secondary.DEFAULT'),
+          transition: 'color 0.3s ease-in-out',
+          '&:hover': {
+            color: theme('colors.primary.DEFAULT'),
+          },
+        },
+      })
+    },
+  ],
 }
 
