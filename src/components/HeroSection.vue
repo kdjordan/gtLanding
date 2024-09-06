@@ -9,7 +9,7 @@
             <h1 class="text-5xl font-bold mb-6">Voice Solutions you can count on.</h1>
             <div class="mt-8">
               <h3 class="text-2xl font-semibold mb-4">Retail and Wholesale all in one place.</h3>
-              <p class="mb-8 text-lg">Glotell is a leading provider of telecommunications Termination services, delivering reliable, high-quality solutions tailored to the unique needs of our clients. Our experienced team specializes in optimizing telecom infrastructure and guiding businesses through the latest communication technologies. Additionally, through a strategic partnership with V-Tell, we offer retail cellular services, ensuring seamless global connectivity for our customers.</p>
+              <p class="mb-8 text-lg">Glotell is a leading provider of telecommunications termination services, delivering reliable, high-quality solutions tailored to the unique needs of our clients. Our experienced team specializes in optimizing telecom infrastructure and guiding businesses through the latest communication technologies. Additionally, through a strategic partnership with V-Tell, we offer retail cellular services, ensuring seamless global connectivity for our customers.</p>
             </div>
           </div>
           <div class="w-full lg:w-2/5">
