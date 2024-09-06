@@ -1,6 +1,6 @@
 <template>
-  <nav ref="navbar" class="bg-stone-300 text-secondary py-4 sticky top-0 z-50 transition-all duration-300" :class="{ 'translate-y-[-100%]': isHidden }">
-    <div class="container mx-auto px-4 flex justify-between items-center">
+  <nav ref="navbar" class="w-full bg-stone-300 text-secondary py-4 fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="{ 'translate-y-[-100%]': isHidden }">
+    <div class="w-full px-4 flex justify-between items-center">
       <div class="bg-primary rounded-md shadow-lg overflow-hidden">
         <div class="flex items-center px-4 py-2">
           <svg class="h-8 w-8 text-black mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -65,7 +65,7 @@ const scrollTo = (href) => {
 const navbar = ref(null);
 const isHidden = ref(false);
 let lastScrollY = 0;
-const scrollThreshold = 50; // Adjust this value to change sensitivity
+const scrollThreshold = 50;
 
 const handleScroll = () => {
   const currentScrollY = window.scrollY;
@@ -102,8 +102,6 @@ const toggleMenu = () => {
 </script>
 
 <style scoped>
-/* Add any additional styles here if needed */
-
 .slide-down-enter-active,
 .slide-down-leave-active {
   transition: transform 0.3s ease-in-out;
