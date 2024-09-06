@@ -1,7 +1,7 @@
 <template>
   <nav ref="navbar" class="bg-stone-300 text-secondary py-4 sticky top-0 z-50 transition-all duration-300" :class="{ 'translate-y-[-100%]': isHidden }">
     <div class="container mx-auto px-4 flex justify-between items-center">
-      <div class="bg-primary rounded-full shadow-lg overflow-hidden">
+      <div class="bg-primary rounded-md shadow-lg overflow-hidden">
         <div class="flex items-center px-4 py-2">
           <svg class="h-8 w-8 text-black mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
