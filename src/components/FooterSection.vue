@@ -23,17 +23,20 @@
 						>
 					</div>
 					<p class="mb-4 max-w-2xl">
-						In partnership with V-Tell, we offer a suite of
-						connectivity solutions designed to meet the needs of
-						enterprises and individuals worldwide. Our offerings range
-						from retail cellular services to robust termination
-						solutions, ensuring that IT leaders can deliver reliable,
-						cost-effective communications infrastructure. Whether
-						you’re expanding your reach or enhancing existing systems,
-						Glotell’s unified approach ensures seamless operations and
-						unmatched global coverage.
+						Glotell operates as an integral part of the V-Tell group
+						of companies, a unified business committed to delivering
+						comprehensive telecom solutions. As part of the same
+						ownership structure, Glotell and V-Tell work seamlessly
+						together, combining their strengths to lead innovation in
+						the telecommunications industry. This unified approach
+						ensures that all aspects of their operations—from retail
+						cellular services to advanced VOIP solutions—are
+						strategically aligned to meet the diverse needs of
+						customers. By operating as one cohesive entity, the V-Tell
+						group, through Glotell, provides unmatched expertise and
+						high-quality services to wholesale VOIP businesses
+						globally.
 					</p>
-
 				</div>
 
 				<!-- Location -->
