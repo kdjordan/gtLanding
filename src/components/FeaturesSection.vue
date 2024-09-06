@@ -7,16 +7,23 @@
       </div>
       
       <!-- Retail Section -->
-      <div class="flex gap-8 mb-16">
-        <!-- Vertical RETAIL text -->
-        <div class="w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center">
-          <div class="text-6xl font-bold text-secondary flex flex-col items-center">
-            <span>R</span><span>E</span><span>T</span><span>A</span><span>I</span><span>L</span>
+      <div class="flex flex-col md:flex-row gap-8 mb-16">
+        <!-- RETAIL text -->
+        <div class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0">
+          <div class="text-4xl md:text-6xl font-bold text-secondary">
+            <div class="feature-text">
+              <span>R</span>
+              <span>E</span>
+              <span>T</span>
+              <span>A</span>
+              <span>I</span>
+              <span>L</span>
+            </div>
           </div>
         </div>
         
         <!-- Retail copy -->
-        <div class="w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden">
+        <div class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden">
           <div class="p-8">
             <h3 class="text-2xl font-bold text-secondary mb-4">Global Connectivity, Simplified</h3>
             <p class="text-secondary mb-4">
@@ -38,9 +45,9 @@
       </div>
       
       <!-- Wholesale Section -->
-      <div class="flex gap-8">
+      <div class="flex flex-col md:flex-row gap-8">
         <!-- Wholesale copy -->
-        <div class="w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden">
+        <div class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden order-2 md:order-1">
           <div class="p-8">
             <h2 class="text-2xl font-bold text-secondary mb-4">Glotell: Your Partner in Domestic Telecommunications Termination</h2>
             <p class="text-secondary mb-4">
@@ -57,10 +64,20 @@
           </div>
         </div>
         
-        <!-- Vertical WHOLESALE text -->
-        <div class="w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center py-8">
-          <div class="text-6xl font-bold text-secondary flex flex-col items-center">
-            <span>W</span><span>H</span><span>O</span><span>L</span><span>E</span><span>S</span><span>A</span><span>L</span><span>E</span>
+        <!-- WHOLESALE text -->
+        <div class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0 order-1 md:order-2">
+          <div class="text-4xl md:text-6xl font-bold text-secondary">
+            <div class="feature-text py-8">
+              <span>W</span>
+              <span>H</span>
+              <span>O</span>
+              <span>L</span>
+              <span>E</span>
+              <span>S</span>
+              <span>A</span>
+              <span>L</span>
+              <span>E</span>
+            </div>
           </div>
         </div>
       </div>
@@ -74,7 +91,28 @@
 
 <style scoped>
 #features {
-  scroll-margin-top: 4rem; /* Increased from 4rem to 6rem */
+  scroll-margin-top: 4rem;
 }
 
+.feature-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-text span {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .feature-text {
+    flex-direction: column;
+  }
+  
+  .feature-text span {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
 </style>

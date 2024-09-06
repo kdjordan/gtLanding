@@ -48,7 +48,7 @@
 						href="https://www.google.com/maps/search/?api=1&query=1832+S+Ocean+Drive,Hallandale+Beach,FL+33009,USA"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="inline-block bg-primary text-secondary px-6 py-2 rounded-full font-semibold hover:bg-opacity-80 transition-colors"
+						class="inline-block bg-primary text-secondary px-6 py-2 rounded-full font-semibold hover:bg-black transition-colors"
 					>
 						View on Google Maps
 					</a>
