@@ -1,5 +1,5 @@
 <template>
-	<div id="app" class="tracking-wide">
+	<div id="app" class="tracking-wide w-full">
 		<NavBar />
 
 		<HeroSection />
@@ -15,13 +15,16 @@
 <script setup>
 	import NavBar from './components/NavBar.vue';
 	import HeroSection from './components/HeroSection.vue';
-	import StatsSection from './components/StatsSection.vue';
 	import FeaturesSection from './components/FeaturesSection.vue';
-	import PricingSection from './components/PricingSection.vue';
 	import TestimonialsSection from './components/TestimonialsSection.vue';
 	import FooterSection from './components/FooterSection.vue';
 </script>
 
 <style>
+	#app {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
 	/* Remove any default styles here */
 </style>
