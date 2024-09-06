@@ -13,7 +13,7 @@
         <a v-for="link in links" :key="link.href" :href="link.href" @click.prevent="scrollTo(link.href)" class="text-black font-semibold hover:text-primary transition-colors">
           {{ link.text }}
         </a>
-        <a href="mailto:support.wholesale@v-tell.com" class="bg-primary text-secondary px-4 py-2 rounded-full font-semibold hover:bg-opacity-80 transition-colors inline-block">
+        <a href="mailto:support.wholesale@v-tell.com" target="_blank" rel="noopener noreferrer" class="bg-primary text-secondary px-4 py-2 rounded-full font-semibold hover:bg-opacity-80 transition-colors inline-block">
           Contact
         </a>
       </div>
