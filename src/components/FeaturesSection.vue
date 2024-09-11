@@ -1,5 +1,5 @@
 <template>
-	<section class="py-16 bg-stone-300" id="features">
+	<section class="py-16" id="features">
 		<div class="container mx-auto px-4">
 			<div class="flex items-center mb-12">
 				<div class="w-8 h-0.5 bg-black mr-4"></div>
@@ -12,7 +12,7 @@
 			<div class="flex flex-col md:flex-row gap-8 mb-16">
 				<!-- RETAIL text -->
 				<div
-					class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0"
+					class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0 border-2 "
 				>
 					<div class="text-4xl md:text-6xl font-bold text-secondary">
 						<div class="feature-text">
@@ -28,7 +28,7 @@
 
 				<!-- Retail copy -->
 				<div
-					class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden"
+					class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden border-2"
 				>
 					<div class="p-8">
 						<h3 class="text-3xl font-bold text-secondary mb-4">
@@ -107,7 +107,7 @@
 			<div class="flex flex-col md:flex-row gap-8">
 				<!-- Wholesale copy -->
 				<div
-					class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden order-2 md:order-1"
+					class="w-full md:w-3/4 bg-black rounded-3xl shadow-2xl overflow-hidden order-2 md:order-1 border-2"
 				>
 					<div class="p-8">
 						<h2 class="text-2xl font-bold text-secondary mb-4">
@@ -153,7 +153,7 @@
 
 				<!-- WHOLESALE text -->
 				<div
-					class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0 order-1 md:order-2"
+					class="w-full md:w-1/4 bg-black rounded-3xl shadow-2xl overflow-hidden flex items-center justify-center p-4 md:p-0 order-1 md:order-2 border-2"
 				>
 					<div class="text-4xl md:text-6xl font-bold text-secondary">
 						<div class="feature-text py-8">

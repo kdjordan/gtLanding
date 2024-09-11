@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-stone-200 text-black py-16">
+	<footer class="py-16 text-secondary">
 		<div class="container mx-auto px-4">
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 				<!-- Logo and Description -->
@@ -22,7 +22,7 @@
 							>THE GLOTELL ADVANTAGE</span
 						>
 					</div>
-					<p class="mb-4 max-w-2xl">
+					<p class="mb-4 max-w-2xl">``
 						Glotell operates as an integral part of the V-Tell group
 						of companies, a unified business committed to delivering
 						comprehensive telecom solutions. As part of the same
@@ -62,7 +62,7 @@
 			<div
 				class="mt-16 pt-8 border-t border-gray-300 flex flex-wrap justify-between items-center"
 			>
-				<p>&copy; 2024 Glotell, LLC. All rights reserved.</p>
+				<p>&copy; 2024 Glotell US Corp. All rights reserved.</p>
 			</div>
 		</div>
 	</footer>
